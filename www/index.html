@@ -8,7 +8,7 @@
         div {border: 1px solid black;}
         input {width: 100%;}
     </style>
-    <script type="text/javascript" charset="utf-8" src="cordova-2.4.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
       
     var deviceReady = false;
@@ -55,7 +55,7 @@
      * Upload current picture
      */
     function uploadPicture() {
-      
+    	
     	// Get URI of picture to upload
         var img = document.getElementById('camera_image');
         var imageURI = img.src;
